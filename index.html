@@ -10,20 +10,14 @@
     
 
     <script>
-function sumar()
-{
-valor1= parseInt(prompt ("vamos a sumar 2 numeros . ingrese el numero uno : "));
-valor2= parseInt(prompt ("ingrese numero dos :"));
 
-var resultado = valor1+valor2
-document.getElementById("resultado").innerHTML="la funcion obtiene la siguiente suma :"+ resultado;
+function sumar( valor1,valor2)
+{
+var resultado=valor1+valor2;
+return resultado;
 
 }
-sumar(50,200)
-
-
-
-
+document.getElementById("resultado").innerHTML= "resultado de la suma es : "+ sumar(30,50);
 
 
  
